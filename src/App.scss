@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+
+  .main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+
+    .headers {
+      margin-bottom: 2rem;
+    }
+
+    .input-area {
+      height: 6rem;
+
+      .input {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .result {
+      margin-top: 2rem;
+      width: 75%;
+    }
+  }
+}
